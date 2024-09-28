@@ -1,0 +1,25 @@
+.adornment-wrapper {
+  position: relative;
+}
+
+.adornment {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+}
+
+.adornment-start {
+  left: 0.5rem;
+}
+
+.adornment-end {
+  right: 0.5rem;
+}
+
+/* Adjust for inputs with labels */
+.has-label .adornment {
+  top: calc(50% + 0.5rem);
+}
