@@ -1,5 +1,5 @@
 {
-  "name": "quick-ui",
+  "name": "quick-ui-components",
   "version": "0.0.1",
   "description": "A modern, lightweight UI component library built with Lit and Tailwind CSS.",
   "main": "index.js",
